@@ -1,0 +1,194 @@
+html,
+body {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	scroll-behavior: smooth;
+	box-sizing: border-box;
+	letter-spacing: 1px;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+ul {
+	list-style: none;
+}
+
+body {
+	font-family: 'Raleway', sans-serif;
+}
+
+/**Navbar styles**/
+nav.navbar {
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2);
+}
+.navbar-light .navbar-brand {
+	font-family: 'Viaoda Libre', cursive;
+	font-weight: 800;
+	font-size: 1.75rem;
+	text-transform: uppercase;
+}
+.navbar-light .navbar-nav .nav-link {
+	font-weight: 600;
+}
+.links a {
+	color: #000000;
+}
+
+/*Header section*/
+#header {
+	min-height: 90vh;
+	background: linear-gradient(rgba(13, 110, 253, .75), rgba(13, 110, 253, .6)),
+		url(images/wobins3.jpeg) no-repeat right;
+	background-size: contain;
+	color: #fff;
+}
+
+#header .intro {
+	margin-top: 30vh;
+}
+
+.intro h1 {
+	font-size: 2.5rem;
+	line-height: 3.25rem;
+	font-weight: 800;
+}
+.intro p {
+	font-weight: 600;
+	font-size: 1.125rem;
+	line-height: 2.5em;
+}
+.intro a {
+	border: 1px solid black;
+	padding: 15px 20px;
+	margin: 15px;
+	color: #fff;
+	border-radius: 5px;
+	font-weight: 600;
+}
+.intro .btn-resume {
+	background-color: #0d6efd;
+	border: 0;
+}
+
+.intro .btn-contact {
+	background-color: #28a745;
+	border: 0;
+}
+
+/****************************ABOUT SECTON*******************************/
+#about {
+	background-color: #f4f4f4;
+}
+
+aside {
+	position: fixed;
+	/*z-index: 1;*/
+	top: 30%;
+	right: 0;
+}
+
+.shortLink i {
+	color: #fff;
+}
+
+.shortLink {
+	display: flex;
+	flex-direction: column;
+	height: 50px;
+	opacity: .8;
+	margin-right: 0;
+	padding: 16px;
+    cursor: pointer;
+}
+
+.shortLink:hover {
+	opacity: 1;
+}
+
+.linksHover{
+	padding: 16px 30px;
+}
+
+.about-me {
+	letter-spacing: 1.5px;
+	font-weight: 500;
+	line-height: 2.75em;
+}
+
+#about .myPicture {
+	height: 250px;
+}
+
+.heading {
+	font-weight: 800;
+}
+
+/***************************SKILLS SECTION***************************/
+
+#skills h6 {
+	text-decoration: underline;
+	font-weight: bold;
+	margin-bottom: 1.5rem;
+}
+
+#skills .col-md-4 {
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2);
+}
+
+/**************************CONTACT SECTION*********************/
+#contact {
+	background-color: #f07bbb;
+	color: #fff;
+}
+
+.form-control {
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: 5px solid #fcb7d0;
+	border-radius: 0 !important;
+}
+
+.form-control:focus {
+	border: 2.5px solid #fcb7d0;
+	outline: none;
+	box-shadow: none;
+}
+
+input,
+textarea {
+	caret-color: #fcb7d0;
+	font-weight: 600;
+}
+
+#contact form {
+	background-color: #9979c1;
+	padding: 30px 30px;
+	color: #fff;
+	font-weight: bold;
+}
+.btn-form {
+	background-color: #f07bbb;
+	color: #fff;
+}
+.btn-form:hover,
+.btn-form:focus {
+	border: 3px solid #fcb7d0;
+	color: white;
+	background-color: inherit;
+	font-weight: 800;
+}
+
+.contactLinks {
+	color: #fff;
+	font-weight: 700;
+}
+.contactLinks:hover {
+	text-decoration: #9979c1;
+	font-weight: 800;
+}
+
