@@ -192,3 +192,19 @@ textarea {
 	font-weight: 800;
 }
 
+/***************************Footer**************************/
+#btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 50%;
+    display: none;
+    color: #f7f7f7;
+	border: none;
+	background-color: #fcb7d0;
+	opacity: .8;
+}
+
+#btn-back-to-top:hover{
+    opacity: 1;
+    color: white;
+}
