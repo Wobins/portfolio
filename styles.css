@@ -85,34 +85,6 @@ nav.navbar {
 	background-color: #f4f4f4;
 }
 
-aside {
-	position: fixed;
-	/*z-index: 1;*/
-	top: 30%;
-	right: 0;
-}
-
-.shortLink i {
-	color: #fff;
-}
-
-.shortLink {
-	display: flex;
-	flex-direction: column;
-	height: 50px;
-	opacity: .8;
-	margin-right: 0;
-	padding: 16px;
-    cursor: pointer;
-}
-
-.shortLink:hover {
-	opacity: 1;
-}
-
-.linksHover{
-	padding: 16px 30px;
-}
 
 .about-me {
 	letter-spacing: 1.5px;
