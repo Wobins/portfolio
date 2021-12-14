@@ -2,12 +2,11 @@ html,
 body {
 	height: 100%;
 	width: 100%;
+	min-width: 100vw;
 	margin: 0;
 	padding: 0;
 	scroll-behavior: smooth;
 	box-sizing: border-box;
-	letter-spacing: 1px;
-	overflow-x: hidden;
 }
 
 a {
@@ -43,7 +42,7 @@ nav.navbar {
 #header {
 	min-height: 90vh;
 	background: linear-gradient(rgba(13, 110, 253, .75), rgba(13, 110, 253, .6)),
-		url(images/wobins3.jpeg) no-repeat right;
+		url(./images/wobins3.jpeg) no-repeat right;
 	background-size: contain;
 	color: #fff;
 }
@@ -168,8 +167,8 @@ textarea {
 /***************************Footer**************************/
 #btn-back-to-top {
     position: fixed;
-    bottom: 20px;
-    right: 20px;
+    bottom: 30px;
+    right: 25px;
     display: none;
     color: #f7f7f7;
 	border: none;
@@ -182,3 +181,13 @@ textarea {
     color: white;
 }
 
+.lang-choice{
+	text-decoration: underline;
+	font: initial;
+}
+
+.lang{
+	display: flex;
+	flex-direction: row;
+	justify-content: end;
+}
